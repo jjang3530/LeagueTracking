@@ -12,7 +12,7 @@
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/awayTeamTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="AWAY TEAM"
@@ -21,7 +21,7 @@
         android:textSize="24sp" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/awayTeamName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="AWAY TEAM NAME"
@@ -31,30 +31,33 @@
         android:textSize="36sp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/awayWinBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="AWAY WIN"
+            android:onClick="onAwayWinBtnClicked"
             android:layout_weight="1"
             android:textSize="24sp"/>
         <Button
-            android:id="@+id/button"
+            android:id="@+id/tieBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TIE GAME"
+            android:onClick="onTieGameBtnClicked"
             android:layout_weight="1"
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/homeWinBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="HOME WIN"
+            android:onClick="onHomeWinBtnClicked"
             android:layout_weight="1"
             android:textSize="24sp" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/homeTeamName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="HOME TEAM NAME"
@@ -64,7 +67,7 @@
         android:textSize="36sp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/homeTeamTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="HOME TEAM"

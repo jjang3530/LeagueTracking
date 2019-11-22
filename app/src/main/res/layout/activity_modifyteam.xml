@@ -52,7 +52,8 @@
         android:layout_marginBottom="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
-        android:text="Add Team"
+        android:text="Update Team Name"
+        android:onClick="onUpdateNameBtnClicked"
         android:textSize="20sp"
         />
     </LinearLayout>
@@ -69,6 +70,7 @@
         android:layout_marginBottom="20dp"
         android:layout_weight="1"
         android:text="Delete Team"
+        android:onClick="onDeleteTeamBtnClicked"
         android:textSize="20sp"
         />
     </LinearLayout>
@@ -84,6 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Cancel"
+            android:onClick="onCancelBtnClicked"
             android:textSize="20sp"
             />
     </LinearLayout>

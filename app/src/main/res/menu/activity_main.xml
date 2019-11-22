@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_main"
+        android:title="HOME"
+        app:showAsAction="never" />
+    <item android:id="@+id/menu_standings"
+        android:title="STANDINGS"
+        app:showAsAction="never" />
+    <item android:id="@+id/menu_away"
+        android:title="SELECT AWAY TEAM"
+        app:showAsAction="never" />
+    <item android:id="@+id/menu_home"
+        android:title="SELECT HOME TEAM"
+        app:showAsAction="never" />
+    <item android:id="@+id/menu_addteam"
+        android:title="MANAGE TEAM"
+        app:showAsAction="never" />
+</menu>
